@@ -1,4 +1,3 @@
-/// <reference path="../typings/tsd.d.ts" />
 'use strict';
 
 var pkg = require('../package.json');
@@ -9,7 +8,7 @@ import http = require('http');
 import fs = require('fs');
 import events = require('events');
 
-import uuid = require('node-uuid');
+import uuid = require('uuid');
 import redis = require('redis');
 import socketio = require('socket.io');
 import mkdirp = require('mkdirp');
